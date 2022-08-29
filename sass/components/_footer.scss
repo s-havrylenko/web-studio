@@ -1,0 +1,129 @@
+.footer {
+  background-color: #2f303a;
+  
+  color: $primary-white-color;
+
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
+
+  &__container {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      display: flex;
+      justify-content: space-between;    
+      margin-bottom: 60px;  
+    }
+
+    @media screen and (min-width: 1200px) {
+      display: flex;
+    }
+  }
+
+  &__logo-address {    
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      max-width: 235px;
+    }
+
+    @media screen and (min-width: 1199px) {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: 40px;
+    }
+  }
+
+  &__address {
+    margin-top: 20px;
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71em;
+
+    @media screen and (max-width: 767px) {
+      margin-bottom: 60px;
+    } 
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      text-align: center;
+    } 
+  }
+
+  &__contact {
+    color: $secondary-text-color;
+
+    font-weight: 500;
+  }
+
+  &__networks {
+    @media screen and (max-width: 767px) {
+      margin-bottom: 60px;      
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      justify-content: center;
+      width: 206px;
+    }  
+
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;      
+    }
+  }
+
+  &__call {   
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71em;
+    text-transform: uppercase;
+
+    @media screen and (max-width: 767px) {
+      display: block;
+    }  
+  }
+
+  &__form {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      max-width: 450px;
+      margin-left: auto;
+      margin-right: auto;
+    }  
+
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 73px;     
+    }
+  }
+  
+  &__form input {
+    height: 50px;
+    padding: 14px 15px;
+  
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.24em;
+  
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+
+    @media screen and (max-width: 1199px) {
+      max-width: 450px;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      width: 358px;
+      margin-right: 12px
+    }
+  }  
+}

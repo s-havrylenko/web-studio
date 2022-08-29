@@ -1,0 +1,100 @@
+.container {
+  margin-left: auto; 
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+    
+  @media screen and (min-width: 480px) {
+    width: 480px;    
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;    
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 30px;    
+    font-size: 28px;
+    line-height: 1.17em;
+    letter-spacing: 0.03em;
+    text-align: center;
+
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 50px;
+      font-size: 36px;
+    }
+  }
+
+  &__benefits {
+      @media screen and (max-width: 1199px) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      padding-top: 94px;
+      padding-bottom: 94px;
+    }
+  }
+  
+  &__projects {
+    @media screen and (max-width: 1199px) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      padding-bottom: 94px;
+    }
+  }
+
+  &__team {
+    @media screen and (max-width: 1199px) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      padding-top: 94px;
+      padding-bottom: 94px;
+    }
+  }
+
+  &__clients {
+    @media screen and (max-width: 1199px) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      padding-top: 94px;
+      padding-bottom: 94px;
+    }
+  }
+
+  &__footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    @media screen and (min-width: 1200px) {
+      display: flex;
+    }   
+  }
+
+  &__portfolio {
+    @media screen and (max-width: 1199px) {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      padding-top: 94px;
+      padding-bottom: 94px;
+    }
+  }
+}

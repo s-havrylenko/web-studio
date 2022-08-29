@@ -1,0 +1,16 @@
+.header {
+  position: relative;
+  
+  position: fixed;
+  top: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 100%;
+
+  background-color: $primary-white-color;
+  
+  border-bottom: 1px solid #ECECEC;
+
+  z-index: 9;
+}
